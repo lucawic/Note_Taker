@@ -13,7 +13,7 @@ module.exports = function (route) {
         req.body.id = generateUniqueId();
         let newNotes = req.body;
         notes.push(newNotes);
-        fs.writeFileSync("./db/db.json", JSON.stringify(Notes), "utf8");
+        fs.writeFileSync("./db/db.json", JSON.stringify(notes), "utf8");
         res.json(newNotes);
     });
 

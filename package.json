@@ -1,24 +1,14 @@
 {
-  "name": "note_taker",
+  "name": "note-taker",
   "version": "1.0.0",
-  "description": "## User Story AS A small business owner I WANT to be able to write and save notes SO THAT I can organize my thoughts and keep track of tasks I need to complete",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucawic/Note_Taker.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lucawic/Note_Taker/issues"
-  },
-  "homepage": "https://github.com/lucawic/Note_Taker#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "generate-unique-id": "^2.0.1",
-    "nanoid": "^3.1.25"
+    "express": "^4.16.4"
   }
 }
